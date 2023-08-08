@@ -33,8 +33,8 @@ export default class ClassComponent extends Component {
     console.log('render');
 
     return (
-      <div>
-        <h1 onClick={this.handleClick}>Hello, world!</h1>
+    <div>
+         <h1 onClick={this.handleClick}>Hello, world!</h1>
         <h2>{this.state.date.toLocaleTimeString()}</h2>
       </div>
     )
