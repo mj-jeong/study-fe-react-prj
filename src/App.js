@@ -1,4 +1,4 @@
-import style from "./App.css"
+import "./App.css"
 import React from 'react'
 import Composition from "./components/2-4.Props/Composition"
 import Extraction from './components/2-4.Props/Extraction/Extraction';
