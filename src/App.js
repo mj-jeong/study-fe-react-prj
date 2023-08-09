@@ -8,17 +8,20 @@ import ClassComponent2 from "./components/2-6.LifeCycle/ClassComponent"
 import Event from './components/2-7.Event/Event';
 import Condition from './components/2-8.ConditionalRendering/Condition';
 import List from './components/2-9.List/List';
-
+import ControlledComponent from "./components/2-10.Form/ControlledComponent";
+import UnControlledComponent from "./components/2-10.Form/UnControlledComponent";
 function App() {
   return (
     <div className="App">
-      {/* <FunctionalComponent />
-      <Composition />
-      <Extraction />
-      <ClassComponent2/> */}
+      {/* <FunctionalComponent /> */}
+      {/* <Composition /> */}
+      {/* <Extraction /> */}
+      {/* <ClassComponent2/>  */}
       {/* <Event/> */}
       {/* <Condition /> */}
-      <List />
+      {/* <List /> */}
+      <ControlledComponent />
+      <UnControlledComponent/>
     </div>
   );
 }
