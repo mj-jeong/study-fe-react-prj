@@ -20,11 +20,12 @@ import Button from "./components/3-7.HOC/Button";
 import WithLoading from "./components/3-7.HOC/withLoading";
 import Memo from "./components/3-8.Memoization/Memo"
 import Example from "./components/3-11.Portal/Example"
+import Component from "./components/3-14.PropTypes/Component";
 
 function App() {
   return (
     <div className="App">
-      <Example />
+      {/* <Example /> */}
       {/* <FunctionalComponent /> */}
       {/* <Composition /> */}
       {/* <Extraction /> */}
@@ -42,6 +43,7 @@ function App() {
       {/* <Input /> */}
       {/* <Button /> */}
       {/* <Memo/> */}
+      <Component />
     </div>
   );
 }
