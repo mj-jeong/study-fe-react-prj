@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   root: true,
   env: {
     browser: true,
@@ -8,5 +8,8 @@ module.exports={
   extends: ["prettier"],
   plugins: ["prettier"],
   ignorePatterns: [".eslintrc.js"],
-  rules: {}
-}
+  parserOptions: {
+    sourceType: "module",
+  },
+  rules: {},
+};
